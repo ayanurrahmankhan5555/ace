@@ -3328,6 +3328,42 @@ body {
 .slider_area .text {
     color: #ffffff;
 }
+/* =====================================
+   ADVANCED TEXT DEPTH SYSTEM
+===================================== */
+
+
+/* ===== HERO MAIN TITLE ===== */
+.slider-content .title {
+    text-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.35),
+        0 6px 12px rgba(0, 0, 0, 0.25),
+        0 14px 28px rgba(0, 0, 0, 0.18);
+}
+
+
+/* ===== SECTION TITLES ===== */
+.section-title .title {
+    text-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.18),
+        0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ===== SERVICE BOX TITLES ===== */
+.features-title {
+    text-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.18),
+        0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ===== ABOUT TITLE ===== */
+.about-title .title {
+    text-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.18),
+        0 6px 14px rgba(0, 0, 0, 0.14);
+}
 
 
 /*# sourceMappingURL=style.css.map */
