@@ -3386,5 +3386,65 @@ body {
     font-weight: 700;
 }
 
+.contact-area,
+.contact-area .single-contact-info,
+.contact-area p {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.single-contact-info {
+    align-items: center;
+    gap: 15px;
+}
+
+.single-contact-info .contact-info-content {
+    display: flex;
+    align-items: center;
+}
+
+.single-contact-info .text {
+    margin: 0;
+    font-size: 18px;
+}
+
+.contact-info {
+    padding: 40px 0;
+}
+
+.contact-info-icon {
+    min-width: 60px;
+    height: 60px;
+}
+
+.single-contact-info {
+    display: flex;
+    align-items: center;      /* vertically center everything */
+    gap: 20px;
+}
+
+.contact-info-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info-content {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info-content .text {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.contact-info-content .text {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
