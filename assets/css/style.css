@@ -3365,5 +3365,26 @@ body {
         0 6px 14px rgba(0, 0, 0, 0.14);
 }
 
+/* ===== Footer Color Upgrade ===== */
+
+.footer-area {
+    background: #0b1f3a !important;   /* Deep Navy */
+}
+
+/* ===== Bright Professional Footer ===== */
+
+.footer-area {
+    background: linear-gradient(
+        135deg,
+        #1565C0 0%,   /* Rich Blue */
+        #1E88E5 100%  /* Bright Royal Blue */
+    ) !important;
+}
+
+.footer-area .copyright a {
+    color: #001f4d !important;
+    font-weight: 700;
+}
+
 
 /*# sourceMappingURL=style.css.map */
