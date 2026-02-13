@@ -3244,4 +3244,90 @@ p.form-message.success, p.form-message.error {
     color: #fff;
     background-color: #0067f4; }
 
+    .single-features {
+    height: 100%;
+    padding: 30px;
+}
+
+/* Section Title Styling */
+.section-title .title {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.section-title .text {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Professional Card Design */
+.single-features {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    height: 100%;
+    text-align: center;
+}
+
+.single-features:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+}
+
+.features-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.features-btn {
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #3763eb;
+    transition: 0.3s;
+}
+
+.features-btn:hover {
+    color: #1e40af;
+    text-decoration: none;
+}
+
+/* Subtle Professional Background Gradient */
+body {
+    background: linear-gradient(
+        180deg,
+        #f8fbff 0%,
+        #eef4ff 40%,
+        #ffffff 100%
+    );
+}
+
+.features-area {
+    background: linear-gradient(
+        180deg,
+        #ffffff 0%,
+        #f4f8ff 100%
+    );
+    padding: 100px 0;
+}
+
+.slider_area {
+    background: linear-gradient(
+        135deg,
+        #1e3a8a 0%,
+        #2563eb 100%
+    );
+    color: #ffffff;
+}
+
+.slider_area .title,
+.slider_area .text {
+    color: #ffffff;
+}
+
+
 /*# sourceMappingURL=style.css.map */
